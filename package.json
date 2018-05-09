@@ -1,11 +1,18 @@
 {
-  "name": "agencms-structured-data",
-  "version": "1.0.0",
-  "description": "Google Structured Data for Agencms",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Marco Mark <m2de@outlookcom>",
-  "license": "GPL-3.0"
+    "name": "agencms-structured-data",
+    "version": "1.0.0",
+    "description": "Google Structured Data for Agencms",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "precommit": "lint-staged"
+    },
+    "author": "Marco Mark <m2de@outlookcom>",
+    "license": "GPL-3.0",
+    "devDependencies": {
+        "husky": "^0.14.3",
+        "lint-staged": "^6.0.0",
+        "jsonlint": "^1.6.0",
+        "markdownlint-cli": "^0.5.0"
+    }
 }
