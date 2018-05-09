@@ -1,0 +1,11 @@
+{
+  "name": "agencms-structured-data",
+  "version": "1.0.0",
+  "description": "Google Structured Data for Agencms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marco Mark <m2de@outlookcom>",
+  "license": "GPL-3.0"
+}

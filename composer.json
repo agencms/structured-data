@@ -1,0 +1,12 @@
+{
+    "name": "agencms/structured-data",
+    "description": "Google Structured Data for Agencms",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Marco Mark",
+            "email": "m2de@outlook.com"
+        }
+    ],
+    "require": {}
+}
