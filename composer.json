@@ -8,8 +8,22 @@
             "email": "m2de@outlook.com"
         }
     ],
-    "require": {},
+    "require": {
+        "agencms/core": "^1.1"
+    },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Agencms\\StructuredData\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Agencms\\StructuredData\\Providers\\AppServiceProvider"
+            ]
+        }
     }
 }
